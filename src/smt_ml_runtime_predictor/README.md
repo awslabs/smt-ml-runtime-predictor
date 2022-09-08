@@ -2,21 +2,19 @@
 
 A machine learning-based runtime predictor for SMT solvers.
 
-# How to run code
+# How to run the code
 
 The repository contains features and labels of CVC5 and Z3 and you can directly open the notebook predict.ipynb to train a predictor, make predictions and perform analysis.
 
 ## Feature reproduction
 
-We collect features from the output of CVC5/Z3 when solving benchmarks. You can either clone the existing outputs from 
-```
-S3 bucket: s3://aws-smt-ml-runtime-predictor-solver-output/solver-output.tar.gz
-```
-or re-run CVC5 and Z3 on all benchmarks (it may take a long time):
+We collect features from the output of CVC5/Z3 when solving
+benchmarks. To get the data, update script `run_solver_feature.sh`to
+fit your needs then run it:
 ```
 ./run_solver_feature.sh
 ```
-Please make sure cvc5 and z3 have been added to your $path.
+By default, the script assumes specific benchmarks in different directories. It also requires that cvc5 and z3 are in your $path.
 
 To reproduce features, run the following command:
 ```
@@ -47,14 +45,11 @@ To reproduce online features for testing stability against random seeds, run:
 
 ## Label reproduction
 
-We collect labels from the output of CVC5/Z3 when solving benchmarks. You can either clone the existing outputs from 
-```
-S3 bucket: s3://aws-smt-ml-runtime-predictor-solver-output/solver-output.tar.gz
-```
-or re-run CVC5 and Z3 on all benchmarks (it may take a long time):
+We collect labels from the output of CVC5/Z3 when solving benchmarks. You can use
 ```
 python run_solver_label.py
 ```
+Againg, this pythin script can be edited to select benchmark directories.
 Please make sure cvc5 and z3 have been added to your $path.
 
 To reproduce labels, run the following command:
