@@ -49,7 +49,7 @@ We collect labels from the output of CVC5/Z3 when solving benchmarks. You can us
 ```
 python run_solver_label.py
 ```
-Againg, this pythin script can be edited to select benchmark directories.
+Again, this pythin script can be edited to select benchmark directories.
 Please make sure cvc5 and z3 have been added to your $path.
 
 To reproduce labels, run the following command:
