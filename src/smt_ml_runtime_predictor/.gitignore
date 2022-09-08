@@ -1,0 +1,7 @@
+benchmarks/*
+solver-output-feature/*
+.ipynb_checkpoints/*
+*.txt
+AutogluonModels/*
+*.smt2
+solver-output-label/*
