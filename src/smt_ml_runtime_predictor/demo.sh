@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 ########################################
 ##
 ## predict the runtime for CVC5 to solve the given SMT problem

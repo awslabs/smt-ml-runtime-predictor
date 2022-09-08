@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 echo "Number of benchmarks:"
 echo "dafny: $(find ./benchmarks/dafny/ -type f -name "*.smt2" | wc -l)"
 echo "SMT-LIB $(find ./benchmarks/SMT-LIB/ -type f -name "*.smt2" | wc -l)"
