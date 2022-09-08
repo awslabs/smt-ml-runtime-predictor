@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 # example
 # 1d477adde7e9fbcbe4912d801ea82ba5815fa.smt2.out:cvc5::TERM = { ADD: 194, AND: 518, EQUAL: 146, GEQ: 418, ITE: 101, NOT: 197, STRING_CHARAT: 31, STRING_CONCAT: 25, STRING_CONTAINS: 56, STRING_INDEXOF: 622, STRING_LENGTH: 92, STRING_REPLACE: 25, STRING_SUBSTR: 338, SUB: 560 }
 import os

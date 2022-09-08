@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 ########################################
 ##
 ## collect labels from outputs of solvers running on each benchmark for a long time
